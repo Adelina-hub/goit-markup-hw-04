@@ -457,10 +457,10 @@ background-color: #FFFFFF;
 
 }
 .the-portofolio-list:hover {
-    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
+    /* box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);  */
         transform: translateY(0%);
 
 }
@@ -529,9 +529,11 @@ background-color: #FFFFFF;
    
 }
 .social-page {
-    padding-left: 540px;
+    margin-left: 50px;
     display: flex;
-    margin:auto ;
+    
+        display: block;
+            width: 208px;
     
 }
 .social-text {
@@ -572,9 +574,13 @@ background-color: #FFFFFF;
     background-color: #31d0aa;
 }
 .footer-container {
-    margin-right: 120px;
-   
+
+    display:flex;
+    display:baseline;
        
+}
+.social_footer{
+    margin-right: 120px;
 }
 .footer-logo {
     font-family: "Raleway",sans-serif;
